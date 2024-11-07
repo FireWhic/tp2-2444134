@@ -11,10 +11,10 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 3. Quand celui-ci est terminé, appuyez sur les 3 petits points à côté de *Source*, au-dessus du message du *Commit*.
 4. Après ça, votre *Commit* devrait être dans la section en bas de *Changes*.
 
-![Pers1](/images/Pers1.png)  
-![Pers2](/images/pers2.png)  
-![Pers3](/images/pers3.png)  
-![Pers4](/images/pers4.png)  
+![Pers1](/.docs/Pers1.png)  
+![Pers2](/.docs/pers2.png)  
+![Pers3](/.docs/pers3.png)  
+![Pers4](/.docs/pers4.png)  
 
 ## Contributeurs  
 
