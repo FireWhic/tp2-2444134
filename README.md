@@ -12,9 +12,9 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 4. Après ça, votre *Commit* devrait être dans la section en bas de *Changes*.
 
 ![Pers1](/images/Pers1.png)  
-![Pers2](/images/Pers2.png)  
-![Pers3](/images/Pers3.png)  
-![Pers4](/images/Pers4.png)  
+![Pers2](/images/pers2.png)  
+![Pers3](/images/pers3.png)  
+![Pers4](/images/pers4.png)  
 
 ## Contributeurs  
 
