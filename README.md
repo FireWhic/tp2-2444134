@@ -2,7 +2,7 @@
 
 Ce dépôt contient le code d’un projet web fait dans le cours de Perspective Professionnelles.  
 
-## Faire un *commit* et un *push* dans Visual Studio Code
+### Faire un *commit* et un *push* dans Visual Studio Code
 
 Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.  
 
@@ -16,5 +16,10 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 ![Pers3](/images/pers3.png)  
 ![Pers4](/images/pers4.png)  
 
-## Contributeurs  
+### Contributeurs  
 
+• [Zachary Brière](https://github.com/FireWhic).  
+
+### License  
+
+Copyright @ 2023 Zachary Brière. Tous droits réservés.
