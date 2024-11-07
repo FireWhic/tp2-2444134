@@ -18,7 +18,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 
 ### Contributeurs  
 
-• [Zachary Brière](https://github.com/FireWhic).  
+• [Zachary Brière](https://github.com/FireWhic) - Auteur principal  
 
 ### License  
 
