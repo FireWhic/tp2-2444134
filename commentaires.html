@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--Auteur : Zachary Brière-->
+    <!--Image de fond: https://www.wired.com/story/elden-ring-difficulty-modes/-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Elden Ring - Commentaires</title>
+</head>
+
+<body class="background">
+    <div class="page">
+        <header class="align">
+            <img src="images/logo.png" alt="Logo de Elden Ring" title="Logo Elden Ring">
+            <!--https://www.pinterest.com/pin/elden-ring-485966616053037732/-->
+            <h1>Elden Ring</h1>
+        </header>
+        <nav class="border">
+            <ul class="padding">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie-images.html">Galerie Photo</a></li>
+                <li><a href="commentaires.html">Commentaires</a></li>
+            </ul>
+            <ul class="connexion-border">
+                <li class="padding"><a href="connexion.html">Se connecter</a></li>
+            </ul>
+        </nav>
+        <main class="border">
+
+            <form action="mailto:2444134@csfoy.ca" method="post" enctype="text/plain">
+                <div class="fieldset">
+                    <div class="align">
+                        <fieldset>
+                            <div>
+                                <label class="space" for="txtPrenom">Prénom: </label>
+                                <input type="text" name="txtPrenom" id="txtPrenom" required>
+                            </div>
+                            <div>
+                                <label class="space" for="txtNom">Nom: </label>
+                                <input type="text" name="txtNom" id="txtNom" required>
+                            </div>
+                            <div>
+                                <label class="space" for="courriel">Courriel: </label>
+                                <input type="email" name="courriel" id="courriel" required>
+                            </div>
+                            <div>
+                                <label class="space" for="tel">Téléphone: </label>
+                                <input type="tel" name="tel" id="tel" placeholder="###-###-####">
+                            </div>
+                            <div>
+                                <label class="space" for="lstProvince">Province: </label>
+                                <select name="lstProvince" id="lstProvince">
+                                    <option value="AL">Alberta</option>
+                                    <option value="CB">Colombie-Britannique</option>
+                                    <option value="MN">Manitoba</option>
+                                    <option value="OT">Ontario</option>
+                                    <option value="QB" selected>Québec</option>
+                                    <option value="SK">Saskatchewan</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="space" for="dateNaissance">Date de naissance: </label>
+                                <input type="date" name="dateNaissance" id="dateNaissance">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div>
+                                <label for="commentaires">Commentaires: </label>
+                                <textarea name="commentaires" id="commentaires" cols="30" rows="7"></textarea>
+                            </div>
+                            <label id="genreCinema">Genre(s) de jeux préféré(s): </label>
+                            <div>
+
+                                <input type="checkbox" name="chkAction" id="chkAction">
+                                <label for="chkAction">Souls-likes</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="chkComedie" id="chkComedie">
+                                <label for="chkComedie">jeux à la 3ème personne</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="chkDrame" id="chkDrame">
+                                <label for="chkDrame">FPS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="chkSuspense" id="chkSuspense">
+                                <label for="chkSuspense">Jeux multijoueurs</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="chkHorreur" id="chkHorreur">
+                                <label for="chkHorreur">Jeux à campagne</label>
+                            </div>
+                            <label id="avis">Comment avez-vous trouvé le site?</label>
+                            <div>
+                                <input type="radio" name="avis" id="rbExcellent" checked>
+                                <label for="rbExcellent">Excellent</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="avis" id="rbTB">
+                                <label for="rbTB">Très bien</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="avis" id="rbMoyen">
+                                <label for="rbMoyen">Moyen</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="avis" id="rbBof">
+                                <label for="rbBof">Bof</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="align-center">
+                    <input type="submit" value="Envoyer les commentaires">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
